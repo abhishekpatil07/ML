@@ -213,7 +213,7 @@ print('Algorithm with best accuracy/result is Scalar Vector Machine Classifier:'
 print('Algorithm with best accuracy/result is KNeighbors Classificaton::',ac_kcla*100,'%')
 print('Algorithm with best accuracy/result is Random Forest Classificaton::',ac_rcla*100,'%')
 print("Average result:",(ac_scla+ac_kcla+ac_rcla)/3)
-
+ 
 
 
 
