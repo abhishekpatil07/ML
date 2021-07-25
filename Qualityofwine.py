@@ -1,3 +1,4 @@
+#Data Preprocessing
 import pandas as pd # data processing
 import numpy as np # linear algebra
 import matplotlib.pyplot as plt #plotting correlation graph
@@ -6,6 +7,9 @@ dataset = pd.read_csv('/content/winequality-red.csv') #uploading csv file
 dataset
 
 dataset.info() #checking the information i.e,type and contents in the dataset 
+#target is quality; rest of the colums are features
+
+#Correlation of data
 X = dataset.iloc[:, :-1].values #features
 y = dataset.iloc[:, -1].values #target
 x
